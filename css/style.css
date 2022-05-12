@@ -218,10 +218,11 @@ margin-right: 30px;
 /* ============ стили к блоку our team ====== */
 .our-team {
 background-color: #F5F4FA;
+padding-top: 94px;
+padding-bottom: 94px;
 }
 .section-list {
 display: flex;
-padding-bottom: 94px;
 }
 .our-team-card {
 background-color: var(--color-for-dark);
