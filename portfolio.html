@@ -11,101 +11,123 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
-    <header class="top-header container">
-        <a class="logo link" href="#"><span class="accent">Web</span>Studio</a>
-        <nav class="header-navigation">
-            <ul class="menu list">
-                <li class="menu-item">
-                    <a class="menu-link link" href="./index.html">Студия</a>
+    <header class="top-header">
+        <div class="container header-flex">
+            <a class="logo link logo-header" href="#"><span class="accent">Web</span>Studio</a>
+            <nav class="header-navigation">
+                <ul class="menu list">
+                    <li class="menu-item">
+                        <a class="menu-link link" href="./index.html">Студия</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link link accent" href="">Портфолио</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link link" href="">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="header-contact list">
+                <li class="header-contact-item"><a class="header-tel link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li class="menu-item">
-                    <a class="menu-link link accent" href="">Портфолио</a>
-                </li>
-                <li class="menu-item">
-                    <a class="menu-link link" href="">Контакты</a>
-                </li>
+                <li class="header-contact-item"><a class="header-mail link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul class="header-contact list">
-            <li><a class="header-tel link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="header-mail link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
 <main>
-    <section class="container main-portfolio">
-        <h1 hidden>Наши работы</h1>
-        <ul class="list project-link">
-            <li class="project-link-type"><button class="link project-type button-accent" type="button">Все</button></li>
-            <li class="project-link-type"><button class="link project-type" type="button">Веб-сайты</button></li>
-            <li class="project-link-type"><button class="link project-type" type="button">Приложения</button></li>
-            <li class="project-link-type"><button class="link project-type" type="button">Дизайн</button></li>
-            <li class="project-link-type"><button class="link project-type" type="button">Маркетинг</button></li>
-        </ul>
-        <ul class="list gallery">
-            <li class="example-gallery"><a class="link" href="#">
-                    <img src="./images/for-portfolio/img-1.jpg" alt="ноутбук" width="370">
-                    <h2 class="project-name">Технокряк</h2>
-                    <p class="card-project-type">Веб-сайт</p>
-                </a>
-            </li>
-            <li class="example-gallery"><a class="link" href="#">
-                    <img src="./images/for-portfolio/img-2.jpg" alt="игроки в баскетбол" width="370">
-                    <h2 class="project-name">Постер New Orlean vs Golden Star</h2>
-                    <p class="card-project-type">Дизайн</p>
-                </a>
-            </li>
-            <li class="example-gallery"><a class="link" href="#">
-                    <img src="./images/for-portfolio/img-3.jpg" alt="вывеска для ресторана" width="370">
-                    <h2 class="project-name">Ресторан Seafood</h2>
-                    <p class="card-project-type">Приложение</p>
-                </a>
-            </li>
-            <li class="example-gallery"><a class="link" href="#">
-                    <img src="./images/for-portfolio/img-4.jpg" alt="наушники" width="370">
-                    <h2 class="project-name">Проект Prime</h2>
-                    <p class="card-project-type">Маркетинг</p>
-                </a>
-            </li>
-            <li class="example-gallery"><a class="link" href="#">
-                    <img src="./images/for-portfolio/img-5.jpg" alt="коробки" width="370">
-                    <h2 class="project-name">Проект Boxes</h2>
-                    <p class="card-project-type">Приложение</p>
-                </a>
-            </li>
-            <li class="example-gallery"><a class="link" href="#">
-                    <img src="./images/for-portfolio/img-6.jpg" alt="монитор" width="370">
-                    <h2 class="project-name">Inspiration has no Borders</h2>
-                    <p class="card-project-type">Веб-сайт</p>
-                </a>
-            </li>
-            <li class="example-gallery"><a class="link" href="#">
-                    <img src="./images/for-portfolio/img-7.jpg" alt="журнал" width="370">
-                    <h2 class="project-name">Издание Limited Edition</h2>
-                    <p class="card-project-type">Дизайн</p>
-                </a>
-            </li>
-            <li class="example-gallery"><a class="link" href="#">
-                    <img src="./images/for-portfolio/img-8.jpg" alt="бирка" width="370">
-                    <h2 class="project-name">Проект LAB</h2>
-                    <p class="card-project-type">Маркетинг</p>
-                </a>
-            </li>
-            <li class="example-gallery"><a class="link" href="#">
-                    <img src="./images/for-portfolio/img-9.jpg" alt="человек работает за компьютером" width="370">
-                    <h2 class="project-name">Growing Business</h2>
-                    <p class="card-project-type">Приложение</p>
-                </a>
-            </li>
-        </ul>
+    <section class="main-portfolio">
+        <div class="container portfolio-container">
+            <h1 hidden>Наши работы</h1>
+            <ul class="list project-link">
+                <li class="project-link-type"><button class="link project-type button-accent" type="button">Все</button></li>
+                <li class="project-link-type"><button class="link project-type" type="button">Веб-сайты</button></li>
+                <li class="project-link-type"><button class="link project-type" type="button">Приложения</button></li>
+                <li class="project-link-type"><button class="link project-type" type="button">Дизайн</button></li>
+                <li class="project-link-type"><button class="link project-type" type="button">Маркетинг</button></li>
+            </ul>
+            <ul class="list gallery">
+                <li class="example-gallery"><a class="link" href="#">
+                        <img src="./images/for-portfolio/img-1.jpg" alt="ноутбук" width="370">
+                        <div class="example-gallery-list">
+                            <h2 class="project-name">Технокряк</h2>
+                            <p class="card-project-type">Веб-сайт</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="example-gallery"><a class="link" href="#">
+                        <img src="./images/for-portfolio/img-2.jpg" alt="игроки в баскетбол" width="370">
+                        <div class="example-gallery-list">
+                        <h2 class="project-name">Постер New Orlean vs Golden Star</h2>
+                        <p class="card-project-type">Дизайн</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="example-gallery"><a class="link" href="#">
+                        <img src="./images/for-portfolio/img-3.jpg" alt="вывеска для ресторана" width="370">
+                        <div class="example-gallery-list">
+                        <h2 class="project-name">Ресторан Seafood</h2>
+                        <p class="card-project-type">Приложение</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="example-gallery"><a class="link" href="#">
+                        <img src="./images/for-portfolio/img-4.jpg" alt="наушники" width="370">
+                        <div class="example-gallery-list">
+                        <h2 class="project-name">Проект Prime</h2>
+                        <p class="card-project-type">Маркетинг</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="example-gallery"><a class="link" href="#">
+                        <img src="./images/for-portfolio/img-5.jpg" alt="коробки" width="370">
+                        <div class="example-gallery-list">
+                        <h2 class="project-name">Проект Boxes</h2>
+                        <p class="card-project-type">Приложение</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="example-gallery"><a class="link" href="#">
+                        <img src="./images/for-portfolio/img-6.jpg" alt="монитор" width="370">
+                        <div class="example-gallery-list">
+                        <h2 class="project-name">Inspiration has no Borders</h2>
+                        <p class="card-project-type">Веб-сайт</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="example-gallery"><a class="link" href="#">
+                        <img src="./images/for-portfolio/img-7.jpg" alt="журнал" width="370">
+                        <div class="example-gallery-list">
+                        <h2 class="project-name">Издание Limited Edition</h2>
+                        <p class="card-project-type">Дизайн</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="example-gallery"><a class="link" href="#">
+                        <img src="./images/for-portfolio/img-8.jpg" alt="бирка" width="370">
+                        <div class="example-gallery-list">
+                        <h2 class="project-name">Проект LAB</h2>
+                        <p class="card-project-type">Маркетинг</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="example-gallery"><a class="link" href="#">
+                        <img src="./images/for-portfolio/img-9.jpg" alt="человек работает за компьютером" width="370">
+                        <div class="example-gallery-list">
+                        <h2 class="project-name">Growing Business</h2>
+                        <p class="card-project-type">Приложение</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </section>
 </main>
-    <div class="container">
-        <footer class="bottom-site">
+    <footer class="bottom-site">
+        <div class="container">
             <a class="logo logo-for-dark link" href=""><span class="accent">Web</span>Studio</a>
             <address class="footer-contact list">
                 <a class="footer-address link" href="#">г. Киев, пр-т Леси Украинки, 26</a>
@@ -114,8 +136,8 @@
                     <li><a class="footer-tel link" href="tel:+380991111111">+38 099 111 11 11</a></li>
                 </ul>
             </address>
-        </footer>
-    </div>
+        </div>
+    </footer>
 </body>
 
 </html>

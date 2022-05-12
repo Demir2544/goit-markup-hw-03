@@ -11,13 +11,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css ">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header class="top-header container">
-        <a class="logo link" href="#"><span class="accent">Web</span>Studio</a>
+    <header class="top-header">
+        <div class="container header-flex">
+            <a class="logo link logo-header" href="#"><span class="accent">Web</span>Studio</a>
             <nav class="header-navigation">
                 <ul class="menu list">
                     <li class="menu-item">
@@ -32,19 +33,23 @@
                 </ul>
             </nav>
             <ul class="header-contact list">
-                <li class="header-contact-item"><a class="header-tel link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="header-contact-item"><a class="header-mail link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="header-contact-item"><a class="header-tel link"
+                        href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="header-contact-item"><a class="header-mail link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
             </ul>
+        </div>
     </header>
     <main>
-        <!-- <div class="container"> -->
             <section class="hero">
-                <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
-                <button class="modal-btn" type="button">Заказать услугу</button>
+                <div class="hero-container">
+                        <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
+                        <button class="modal-btn" type="button">Заказать услугу</button>
+                </div>
             </section>
-        <!-- </div> -->
-        <div class="container">
             <section class="advantages">
+                <div class="container">
                 <h2 hidden class="section-title">Преимущества</h2>
                 <ul class="list-advantages list">
                     <li class="list-advantages-card">
@@ -68,49 +73,57 @@
                             плановых заданий.</p>
                     </li>
                 </ul>
+                </div>
             </section>
-        </div>
-        <div class="container">
             <section class="operation">
+                <div class="container">
                 <h2 class="section-title">Чем мы занимаемся</h2>
                 <ul class="operation-list list">
-                    <li><img src="./images/for-main/img1.jpg" alt="Работающий программист, его стол, офис" width="370"></li>
-                    <li><img src="./images/for-main/img2.jpg" alt="Разработка интерфейса мобильного приложения" width="370"></li>
-                    <li><img src="./images/for-main/img3.jpg" alt="Веб-дизайнер с работой над выбором цвета на графическом планшете"
+                    <li class="operation-list-link"><img src="./images/for-main/img1.jpg" alt="Работающий программист, его стол, офис" width="370"></li>
+                    <li class="operation-list-link"><img src="./images/for-main/img2.jpg" alt="Разработка интерфейса мобильного приложения" width="370"></li>
+                    <li class="operation-list-link"><img src="./images/for-main/img3.jpg" alt="Веб-дизайнер с работой над выбором цвета на графическом планшете"
                             width="370"></li>
                 </ul>
+                </div>
             </section>
-        </div>
-        <div class="container">
             <section class="our-team">
+                <div class="container">
                 <h2 class="section-title">Наша команда</h2>
                 <ul class="section-list list">
                     <li class="our-team-card">
                         <img src="./images/for-main/kom1.jpg" alt="Игорь Демьяненко" width="270">
-                        <h3 class="team-name">Игорь Демьяненко</h3>
-                        <p class="team-position" lang="en">Product Designer</p>
+                        <div class="our-team-card-sub">
+                            <h3 class="team-name">Игорь Демьяненко</h3>
+                            <p class="team-position" lang="en">Product Designer</p>
+                        </div>
                     </li>
                     <li class="our-team-card">
                         <img src="./images/for-main/kom2.jpg" alt="Ольга Репина" width="270">
+                        <div class="our-team-card-sub">
                         <h3 class="team-name">Ольга Репина</h3>
                         <p class="team-position" lang="en">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="our-team-card">
                         <img src="./images/for-main/kom3.jpg" alt="Николай Тарасов" width="270">
+                        <div class="our-team-card-sub">
                         <h3 class="team-name">Николай Тарасов</h3>
                         <p class="team-position" lang="en">Marketing</p>
+                        </div>
                     </li>
                     <li class="our-team-card">
                         <img src="./images/for-main/kom4.jpg" alt="Михаил Ермаков" width="270">
+                        <div class="our-team-card-sub">
                         <h3 class="team-name">Михаил Ермаков</h3>
                         <p class="team-position" lang="en">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
+                </div>
             </section>
-        </div>
     </main>
-    <div class="container">
         <footer class="bottom-site">
+    <div class="container">
             <a class="logo logo-for-dark link" href=""><span class="accent">Web</span>Studio</a>
             <address class="footer-contact list">
                 <a class="footer-address link" href="#">г. Киев, пр-т Леси Украинки, 26</a>
@@ -119,8 +132,8 @@
                     <li><a class="footer-tel link" href="tel:+380991111111">+38 099 111 11 11</a></li>
                 </ul>
             </address>
+            </div>
         </footer>
-    </div>
 </body>
 
 </html>
